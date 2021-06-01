@@ -1,9 +1,8 @@
-## Python virtual-environments - A tutorial
-### (QuickStart to Python Virtual Environments)
+## Tutorial: Python Virtual Environments
+#### - QuickStarti in the form of a gentle introduction for Linux users and a few others
 
-Last update: Nov. 2020
-
-Copyright (c) 2019 Cedric Bhihe
+Last update: Nov. 2020<BR>
+Copyright (c) 2019 Cedric Bhihe<BR>
 Permission is granted to copy, distribute and/or modify this document,
 under the terms of the [GNU Free Documentation License Version 1.3](https://www.gnu.org/licenses/fdl-1.3.txt) or
 or any later version published by the Free Software Foundation. You can
@@ -11,14 +10,13 @@ consult the full licensing terms either on the Free Software Foundation
 web sites, or in the adjoined LICENSE.md file.
 
 
-**–= A gentle introduction for Linux users and a few others =–**
 
 The decision to write this tutorial can be traced back to two posts: the first is
 a 2019 [blog post](https://bartek-blog.github.io/python/2018/08/18/Pyenv-and-VirtualEnvs.html) by Bartek
 Skorulski, the second is a 2017 [post](https://stackoverflow.com/a/41573588/4906636) by @Flimm on the Stackoverflow site.
 The underlying motivation was my being fed up with the fact that no easy-to-read
-quickstart existed, which tends to make the life of beginners always more difficult
-than it should be.
+even half comprehensive quickstart existed, which tends to make the life of
+beginners always more difficult than it should be.
 
 In this tutorial I focus on the environment commonly seen by Archlinux users,
 and by extension by all Linux users whose distribution runs on the system and
@@ -27,11 +25,14 @@ usually seen on the Internet, mostly disjoint commentaries, which many times
 can truly be understood only by people who already are experienced Python
 virtual environment practitioners. It addresses the down-to-earth needs of both
 first-time users and users who want to get a sense of the current Python virtual
-environment landscape for Linux, as of mid 2020. I tried to write in plain English
-without too many technicalities readers can get to work rapidly. On the other hand
-I try to provide clean shell code snippet or Bash cli instructions. They are meant
-for you to copy and paste on your terminal. However your mileage may vary depending
-on your Linux distribution and perhaps also on your shell and shell version. 
+environment landscape for Linux (as of mid 2020).
+
+I tried to write in plain English avoiding undue technicalities, so readers can
+get to work rapidly. I also tried to provide clean shell code snippet or Bash cli
+instructions, meant to be copied and pasted by you in your terminal. Note that
+your mileage may vary depending on your Linux distribution and perhaps also on
+your shell and shell version. All shell scripting cmds were tested on CentOS 7.x,
+Ubuntu 18.04 and up-to-date Archlinux.
 
 So what is a Python virtual environment and what could motivate the creation of
 virtual environments for Python? I answer those two questions superficially in
@@ -63,8 +64,7 @@ remain practical ? One way is to embrace the concept of Python virtual environme
 A virtual environment is an isolated Python environment, at a specific location (in
 a specific directory).  At that location (in that specific directory) you can
 install and execute a Python version of your choice, independently of other Python
-virtual environments already residing on your platform. The relevant [Arch wiki]
-(https://wiki.archlinux.org/title/Python/Virtual\_environment) explains:<BR>
+virtual environments already residing on your platform. The relevant [Arch wiki](https://wiki.archlinux.org/title/Python/Virtual\_environment) explains:<BR>
 >  *A virtual environment is a directory in which some binaries and shell scripts
 >  are installed. The binaries include python for executing scripts and pip for
 >  installing other modules within the environment. There are also shell scripts
