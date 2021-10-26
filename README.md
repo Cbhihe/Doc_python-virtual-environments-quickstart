@@ -1,13 +1,13 @@
 ## Tutorial: Python Virtual Environments
 #### - QuickStarti in the form of a gentle introduction for Linux users and a few others
 
-Last update: Nov. 2020<BR>
-Copyright (c) 2019 Cedric Bhihe<BR>
+Last update: Oct. 2021<BR>
+Copyright (c) 2019, 2020, 2021 Cedric Bhihe<BR>
 Permission is granted to copy, distribute and/or modify this document,
 under the terms of the [GNU Free Documentation License Version 1.3](https://www.gnu.org/licenses/fdl-1.3.txt) or
 or any later version published by the Free Software Foundation. You can
 consult the full licensing terms either on the Free Software Foundation
-web sites, or in the adjoined LICENSE.md file.
+web site, or in the adjoined LICENSE.md file.
 
 
 
@@ -31,7 +31,7 @@ I tried to write in plain English avoiding undue technicalities, so readers can
 get to work rapidly. I also tried to provide clean shell code snippet or Bash cli
 instructions, meant to be copied and pasted by you in your terminal. Note that
 your mileage may vary depending on your Linux distribution and perhaps also on
-your shell and shell version. All shell scripting cmds were tested on CentOS 7.x,
+your shell and shell version. All shell cmds were tested in Bash on CentOS 7.x,
 Ubuntu 18.04 and up-to-date Archlinux.
 
 So what is a Python virtual environment and what could motivate the creation of
