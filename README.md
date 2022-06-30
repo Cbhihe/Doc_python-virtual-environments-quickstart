@@ -1,8 +1,8 @@
 ## Tutorial: Python Virtual Environments
 #### - QuickStart in the form of a gentle introduction for Linux users and a few others
 
-Last update: Oct. 2021<BR>
-Copyright (c) 2019, 2020, 2021 Cedric Bhihe<BR>
+Last update: Jun. 2022<BR>>
+Copyright (c) 2019-2022 Cedric Bhihe<BR>
 Permission is granted to copy, distribute and/or modify this document,
 under the terms of the [GNU Free Documentation License Version 1.3](https://www.gnu.org/licenses/fdl-1.3.txt) or
 or any later version published by the Free Software Foundation. You can
