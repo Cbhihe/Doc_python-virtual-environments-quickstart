@@ -1,5 +1,5 @@
 ## Tutorial: Python Virtual Environments
-#### - QuickStarti in the form of a gentle introduction for Linux users and a few others
+#### - QuickStart in the form of a gentle introduction for Linux users and a few others
 
 Last update: Oct. 2021<BR>
 Copyright (c) 2019, 2020, 2021 Cedric Bhihe<BR>
