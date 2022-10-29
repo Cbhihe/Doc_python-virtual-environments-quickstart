@@ -50,7 +50,8 @@ premise to this tutorial is that sooner or later you will. This tutorial is a
 step-by-step guide on how to overcome such a difficulty by using Python virtual
 environments. There are several ways to do so and you may choose the one that
 appears more practical to you. I am personally biased toward _pyenv_  which is the
-name of a Python package available on PiPy, because it is simple to use.
+name of a Python package available on PyPI, the Python Package Index, because
+it is simple to use.
 
 At its root the issue for any programmer is that different versions of any
 Python module normally cannot coexist in a single runtime environment (RTE)
