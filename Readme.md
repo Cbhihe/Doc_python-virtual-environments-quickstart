@@ -30,16 +30,17 @@ virtual environment practitioners. It addresses the down-to-earth needs of both
 first-time users and users who want to get a sense of the current Python virtual
 environment landscape for Linux (as of mid 2020).
 
-I tried to write in plain English avoiding undue technicalities, so readers can
+I tried to write in plain English, avoiding undue technicalities, so readers can
 get to work rapidly. I also tried to provide clean shell code snippet or Bash cli
 instructions, meant to be copied and pasted by you in your terminal. Note that
 your mileage may vary depending on your Linux distribution and perhaps also on
 your shell and shell version. All shell cmds were tested in Bash on CentOS 7.x,
-Ubuntu 18.04 and up-to-date Archlinux.
+Ubuntu 18.04 and up-to-date Archlinux, which in practical terms means any Bash 
+version >= 4.8.
 
-So what is a Python virtual environment and what could motivate the creation of
-virtual environments for Python? I answer those two questions superficially in
-this introductory section and chose to dedicate the rest of the document to how
+_**What is a Python virtual environment and what could motivate the creation of
+virtual environments for Python?**_ I answer those two questions superficially in
+this summary and chose to dedicate the rest of the document to how
 one may go about creating and managing virtual environments.
 
 If you use Python for anything, either professionally or at home, chances are
@@ -48,7 +49,8 @@ Python module(s). If you have not yet contended with such predicament, the
 premise to this tutorial is that sooner or later you will. This tutorial is a
 step-by-step guide on how to overcome such a difficulty by using Python virtual
 environments. There are several ways to do so and you may choose the one that
-appears more practical to you.
+appears more practical to you. I am personally biased toward _pyenv_  which is the
+name of a Python package available on PiPy, because it is simple to use.
 
 At its root the issue for any programmer is that different versions of any
 Python module normally cannot coexist in a single runtime environment (RTE)
