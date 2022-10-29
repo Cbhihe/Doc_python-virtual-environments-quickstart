@@ -1,7 +1,8 @@
 ## Tutorial: Python Virtual Environments
-#### - QuickStart in the form of a gentle introduction for Linux users and a few others
 
-Last update: Jun. 2022<BR>>
+In this tutorial the abbreviation _VE(s)_, means “virtual environment(s)”.
+
+Last editorial update: Jun. 2022<BR>>
 Copyright (c) 2019-2022 Cedric Bhihe<BR>
 Permission is granted to copy, distribute and/or modify this document,
 under the terms of the [GNU Free Documentation License Version 1.3](https://www.gnu.org/licenses/fdl-1.3.txt) or
@@ -10,7 +11,9 @@ consult the full licensing terms either on the Free Software Foundation
 web site, or in the adjoined LICENSE.md file.
 
 
+#### - QuickStart in the form of a gentle introduction for Linux users and a few others
 
+### Summary
 The decision to write this tutorial can be traced back to two posts: the first is
 a 2019 [blog post](https://bartek-blog.github.io/python/2018/08/18/Pyenv-and-VirtualEnvs.html) by Bartek
 Skorulski, the second is a 2017 [post](https://stackoverflow.com/a/41573588/4906636) by @Flimm on the Stackoverflow site.
@@ -72,9 +75,6 @@ virtual environments already residing on your platform. The relevant [Arch wiki]
 >  environment mimics a full system install of Python and all of the desired modules
 >  without interfering with any system on which the application might run.*
 
-In this tutorial we will use the abbreviation _VE(s)_, to refer to the term
-“virtual environment(s)”.
-
 __________________________________
 (1) A simplified overview of the entire Linux boot and startup process is:
 1. At host’s power-up, the BIOS does minimal hardware tests and initialization.
@@ -85,3 +85,8 @@ __________________________________
 4. After kernel set up, systemd initialization starts.
 5. Finally systemd takes over and continues to mount the host’s file systems
       and start services.
+
+
+### Issues
+
+For to report an issue, ask a question or make a suggestion, please sign in and use the [Issues] section in this repo. I do answer my email.
