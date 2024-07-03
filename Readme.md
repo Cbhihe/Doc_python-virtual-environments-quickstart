@@ -2,18 +2,16 @@
 
 In this tutorial the abbreviation _VE(s)_, means “virtual environment(s)”.
 
-Last editorial update: Jun. 2022<BR>>
+Last update: June 2022<BR>
+<BR>
 Copyright (c) 2019-2022 Cedric Bhihe<BR>
-Permission is granted to copy, distribute and/or modify this document,
-under the terms of the [GNU Free Documentation License Version 1.3](https://www.gnu.org/licenses/fdl-1.3.txt) or
-or any later version published by the Free Software Foundation. You can
-consult the full licensing terms either on the Free Software Foundation
-web site, or in the adjoined LICENSE.md file.
+<BR>
+Permission is hereby granted to copy, distribute and/or modify this document, under the terms of the [GNU Free Documentation License Version 1.3](https://www.gnu.org/licenses/fdl-1.3.txt) or or any later version published by the Free Software Foundation. You can consult the full licensing terms either on the Free Software Foundation web site, or in the adjoined License.md file.
 
 
 #### - QuickStart in the form of a gentle introduction for Linux users and a few others
 
-### Summary
+### Foreword
 The decision to write this tutorial can be traced back to two posts: the first is
 a 2019 [blog post](https://bartek-blog.github.io/python/2018/08/18/Pyenv-and-VirtualEnvs.html) by Bartek
 Skorulski, the second is a 2017 [post](https://stackoverflow.com/a/41573588/4906636) by @Flimm on the Stackoverflow site.
